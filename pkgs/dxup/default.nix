@@ -6,24 +6,24 @@
   }:
 
   let
-    version = "0.15.0";
+    version = "0.16.0";
 
     systems = {
       x86_64-linux = {
         url = "https://github.com/dxupsh/dxup/releases/download/v${version}/dxup_Linux_x86_64.tar.gz";
-        sha256 = "sha256-linux-x86_64";
+        sha256 = "";
       };
       aarch64-linux = {
         url = "https://github.com/dxupsh/dxup/releases/download/v${version}/dxup_Linux_arm64.tar.gz";
-        sha256 = "sha256-linux-aarch64";
+        sha256 = "";
       };
       x86_64-darwin = {
         url = "https://github.com/dxupsh/dxup/releases/download/v${version}/dxup_Darwin_x86_64.tar.gz";
-        sha256 = "sha256-darwin-x86_64";
+        sha256 = "";
       };
       aarch64-darwin = {
         url = "https://github.com/dxupsh/dxup/releases/download/v${version}/dxup_Darwin_arm64.tar.gz";
-        sha256 = "sha256-darwin-aarch64";
+        sha256 = "";
       };
     };
 
